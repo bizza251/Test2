@@ -1,0 +1,27 @@
+[
+    {
+        "nome":"lambrusco",
+        "annata":1990,
+        "tipo":"rosso"
+    },
+    {
+        "nome":"lambrusco1",
+        "annata":1991,
+        "tipo":"rosso"
+    },
+    {
+        "nome":"lambrusco2",
+        "annata":1992,
+        "tipo":"rosso"
+    },
+    {
+        "nome":"lambrusco3",
+        "annata":1993,
+        "tipo":"rosso"
+    },
+    {
+        "nome":"lambrusco4",
+        "annata":1994,
+        "tipo":"rosso"
+    }
+]
