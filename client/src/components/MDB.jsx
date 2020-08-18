@@ -2,8 +2,7 @@ import React from "react";
 //import vini from "../data/vini.json";
 import lista from "../data/listaVini";
 import Modal from "./Modal";
-import ObjectToArray from "../functions/ObjectToArray"
-
+import ObjectToArray from "../functions/ObjectToArray";
 
 function createRow(rowElem) {
   return (
@@ -11,7 +10,7 @@ function createRow(rowElem) {
       <td>
         <Modal
           key={rowElem.id}
-          id={"infoWine"+rowElem.id}
+          id={"infoWine" + rowElem.id}
           btnText="Edit"
           title="Edit Wine"
           value={rowElem}
@@ -30,7 +29,7 @@ export default function MDB() {
       <table
         className="table table-striped"
         data-id-field="id"
-        data-toggle='table'
+        data-toggle="table"
         data-sortable="true"
         data-search="true"
         data-pagination="true"
@@ -38,12 +37,7 @@ export default function MDB() {
         <thead className="thead-dark">
           <tr>
             <th className="col-md-1">Edit</th>
-            <th
-              className="col-md-1"
-              data-field="id"
-              data-sortable="true"
-              data-align="center"
-            >
+            <th className="col-md-1" data-field="id" data-align="center">
               ID
             </th>
             <th
@@ -54,10 +48,14 @@ export default function MDB() {
             >
               Nome
             </th>
-            <th className="col-md-4" data-field="name">
+            <th className="col-md-4" data-sortable="true" data-field="name">
               Anno
             </th>
-            <th className="col-md-7" data-field="description">
+            <th
+              className="col-md-7"
+              data-sortable="true"
+              data-field="description"
+            >
               Tipo
             </th>
           </tr>
