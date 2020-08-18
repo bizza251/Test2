@@ -8,7 +8,7 @@ import ObjectToArray from "../functions/ObjectToArray"
 function createRow(rowElem) {
   return (
     <tr>
-      <td>
+      {/* <td>
         <Modal
           key={rowElem.id}
           id={"infoWine"+rowElem.id}
@@ -16,7 +16,7 @@ function createRow(rowElem) {
           title="Edit Wine"
           value={rowElem}
         ></Modal>
-      </td>
+      </td> */}
       {ObjectToArray(rowElem).map((rowAttr) => {
         return <td>{rowAttr}</td>;
       })}
