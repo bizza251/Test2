@@ -30,7 +30,6 @@ export default function MDB() {
       <table
         className="table table-striped"
         data-id-field="id"
-        data-toggle='table'
         data-sortable="true"
         data-search="true"
         data-pagination="true"
