@@ -32,7 +32,7 @@ export default function MDB() {
         data-id-field="id"
         data-toggle='table'
         data-sortable="true"
-        data-search="true"
+        data-search="false"
         data-pagination="true"
       >
         <thead className="thead-dark">
